@@ -1,0 +1,47 @@
+
+/*External CSS */
+
+/*Element selctor */
+body {
+    background-color: blue;
+}
+
+h1 {
+    color: azure;
+}
+
+p {
+    color: #000;
+}
+
+/*Id selctor */
+
+
+#heading_title {
+    text-align: center;
+    color: red;
+}
+
+#content_img {
+    display: block;
+    margin: 0 auto;
+
+}
+
+/*class selctor */
+
+.form_content {
+    background-color: blueviolet;
+}
+
+/*universal selctor */
+* {
+    background: #0691cd;
+}
+
+/*group selctor */
+body,
+h1,
+p {
+    background: #000;
+}
