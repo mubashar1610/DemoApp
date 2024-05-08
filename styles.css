@@ -3,7 +3,7 @@
 
 /*Element selctor */
 body {
-    background-color: blue;
+    background-color: white;
 }
 
 h1 {
@@ -11,21 +11,21 @@ h1 {
 }
 
 p {
-    color: #000;
+    color: white;
 }
 
 /*Id selctor */
+#heading {
+    text-align: center;
+}
 
+.container{
+    text-align: center;
+}
 
 #heading_title {
     text-align: center;
-    color: red;
-}
-
-#content_img {
-    display: block;
-    margin: 0 auto;
-
+    color: white;
 }
 
 /*class selctor */
@@ -43,5 +43,5 @@ p {
 body,
 h1,
 p {
-    background: #000;
+    background: transparent;
 }
