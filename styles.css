@@ -27,11 +27,35 @@ p {
     text-align: center;
     color: white;
 }
+#first_name,#last_name,#email,#password,#address{
+    background-color: transparent;
+    font-size: small;
+}
+
+#first_name_input,#last_name_input,#email_input,#password_input,#address_input{
+    background-color: white;
+   
+}
+
+#first_name_box,#last_name_box,#email_box,#password_box,#address_box{
+  height: 40px;
+  background-color: transparent;
+  text-align: center;
+
+}
+
 
 /*class selctor */
 
-.form_content {
-    background-color: blueviolet;
+.form_container{
+    background-color: white;
+}
+
+.form-background {
+    background-color: #f2f2f2;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
 }
 
 /*universal selctor */

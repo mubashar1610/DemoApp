@@ -59,14 +59,40 @@
     </ol>
 
     <!--Inline CSS-->
-    <div class="form_content" style=" border-radius: 15%; shape-margin: 20%;" class="form">
-        <form>
-            <label> <input type="radio" name="true"> true </label>
-            <label> <input type="radio" name="true"> false </label> <br> <br>
-            <input type="text" placeholder="Type here..." required>
-            <button type="submit">Submit</button>
-        </form>
-    </div>
+    <form class="form-background">
+        <h3 style="background-color: #f2f2f2;">Sign Up</h3>
+        
+        <div id="first_name_box">
+            <label id="first_name">First Name <input id="first_name_input" style="background-color: white; margin-left: 30px;" type="text"
+                placeholder="Type here..." required> </label> <br> <br>
+        </div>
+
+        <div id="last_name_box" >
+            <label id="last_name">Last Name <input id="last_name_input" style="background-color: white; margin-left: 30px;" type="text"
+                placeholder="Type here..." required> </label> 
+        </div>
+
+        <div id="email_box" >
+            <label id="email">Email <input id="email" style="background-color: white; margin-left: 30px;" type="email" placeholder="Type here..."
+                required>
+        </label> 
+        </div>
+        
+        <div id="password_box">
+            <label id="password">Password <input id="password" style="background-color: white; margin-left: 30px;" type="password"
+                placeholder="Type here..." required> </label><br> <br>
+        </div>
+       
+        <div id="address_box">
+            <label id="address">Address <input id="address" style="background-color: white; margin-left: 30px;" type="text"
+                placeholder="Type here..." required> </label><br> <br>
+
+        </div>
+        
+        <button type="submit" style="display: block;
+        margin: 0 auto;
+      ">Submit</button>
+    </form>
 
 </body> <br>
 <footer style="text-align: center;">
