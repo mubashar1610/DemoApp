@@ -5,25 +5,42 @@
 header{
     margin:-10px;
     height: 80px;
-    
+    background-color: transparent;
+
 }
 
   #nav_list li {
     display: inline-block;
     margin: 20px;
+    background-color: transparent;
   }
   nav {
 	position: absolute;
-    margin-left: auto;
-	
+    background-color: transparent;
+}
+header ul,li{
+    background-color: transparent;
 }
    
 h1 {
     color: black;
 }
 
-p {
+.sticky-header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+   padding-right: 10px;
+}
+
+
+p{
     color: white;
+}
+
+a{
+    background-color: transparent;
 }
 
 
@@ -83,8 +100,8 @@ footer{
     margin:-10px
 }
 
-/*universal selctor */
-* {
+/* universal selctor  */
+ * {
     background: #0691cd;
 }
 
